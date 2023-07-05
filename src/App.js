@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       
-      <Events/>
       <UseSateConter/>
 
     </div>

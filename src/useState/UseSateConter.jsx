@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { UseStateObject } from "./UseStateObject";
 
 
 
@@ -35,13 +36,15 @@ export const UseSateConter = () => {
   return (
     <div>
 
-        <h1>USE STATE HOOK</h1>
+        {/* <h1>USE STATE HOOK</h1>
         <h2>Count : {count}</h2>
         <p>{mess}</p>
         <button onClick={handleINC}>INC</button>
         <button onClick={handleCLR}>CLR</button>
-        <button onClick={handleDEC}>DEC</button>
+        <button onClick={handleDEC}>DEC</button> */}
 
+        <UseStateObject/>
+        
     </div>
   )
 }
