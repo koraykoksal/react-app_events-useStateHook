@@ -7,6 +7,8 @@ export const UseStateObject = () => {
     // const [Salary, setSalary] = useState(30000) 
     // const [Age, setAge] = useState(30) 
 
+    const gelenDeger = document.getElementById('inputData')
+
     const [toggle, settoggle] = useState(false)
 
     const [kisi, setKisi] = useState({
@@ -42,6 +44,10 @@ export const UseStateObject = () => {
 
 
     }
+
+
+
+
   return (
     <div>
 
